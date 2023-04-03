@@ -108,7 +108,126 @@ const dictionary = {
         definition: "Disorderly or chaotic",
         example: "The place kpatakpata, e be like say no order."
         },
-        
+        "tueh": {
+            definition: "used to express disgust",
+            example: "see as you dey do. Tueh!"
+            },
+            "agro": {
+                definition: "state of extreme horniness",
+                example: "Agro wan wound my guys!"
+                },
+
+                "alaye": {
+                    definition: "your guy",
+                    example: "Alaye double your hustle!"
+                    },
+                "bad belle": {
+                definition: "Envy or jealousy.",
+                example: "your husband na bad belle!"
+                },  
+                "awon boys": {
+                    definition: "Group of friends or associates",
+                    example: "I went to the club with my awon boys last night"
+                    },  
+
+              "famz": {
+                    definition: " To flatter or try to impress someone",
+                    example: "He was famzing the boss all day at work."
+                    },  
+         "lepa": {
+                    definition: " A slim or skinny person",
+                    example: "She's a lepa girl, but she's got a great personality."
+                    },  
+       "jand": {
+                    definition: "The UK or abroad",
+                    example: "My cousin do go jand for his master's degree."
+                    },  
+  "gidi": {  definition: "Lagos city",
+                    example: "That new guy na from gidi."
+                    },   
+   "ole": {  definition: " thief",
+                    example: "all our politician na ole"
+                    }, 
+     "soro-soke": {  definition: "To speak up or be vocal",
+                    example: "We need to soro soke and demand better governance."
+                    },
+   "shayo": {  definition: "To drink excessively",
+                    example: "We go shayo for club tommorow!"
+                    },  
+                    
+  "yinmu": {  definition: "An expression of disapproval or dismissal",
+                    example: "you too dey lie, yinmu"
+                    },  
+    "kpansh": {  definition: "To have sex",
+                    example: "I kpansh my girlfriend last night, the babe wan wound me!"
+                    },  
+ "las las": {  definition: "Eventually or in the end",
+                    example: "Las las, everybody go chop breakfast"
+                    },  
+                    
+ "razz": {  definition: "Someone who is uncivilized or lacks manners",
+                    example: "I don't want to be associated with razz people."
+                    },  
+                    
+"ukwu": {  definition: "A woman's buttocks",
+                    example: "That girl has a nice ukwu, I can't stop staring."
+                    },  
+                    
+ "up NEPA": {  definition: "An expression used to celebrate the restoration of electricity after a power outage",
+                    example: "Up NEPA, I can finally watch my favorite TV show."
+                    },  
+                    
+ "yab": {  definition: "To tease or mock someone",
+                    example: "Them dey yab your guy say him no get babe."
+                    },  
+                    
+"zanku": {  definition: "A popular dance move in Nigeria, it was said to be originated by a nigeirian musician called, Zlatan",
+                    example: "Everybody just dey zanku for the party last night."
+                    },   
+"amebo": {  definition: "A gossip or someone who likes to spread rumors",
+                    example: "Don't tell her anything, she's an amebo who can't keep a secret."
+                    }, 
+ "jara:": {  definition: "Something extra or additional that is given for free typically after purchasing something",
+                    example: "That woman gave me Jara"
+                    }, 
+ "yahoo boy": {  definition: "A person who engages in online fraud or scamming",
+                    example: "He's a yahoo boy, always looking for ways to defraud people online."
+                    },                                                                              
+
+     "burst my head": {  definition: "To impress or amaze someone",
+                    example: "That performance burst my head, it was so amazing."
+                    },                                 
+"yoruba demon": {  definition: "A term used to describe a charming and attractive man who is known for his ability to seduce women",
+                    example: "Watch out for that guy, he's a Yoruba demon who likes to break hearts."
+                    }, 
+"breakfast": {  definition: "A term used to refer to heartbreak",
+                    example: "Everybody go chop breakfast"
+                    }, 
+"jaiye": {  definition: "To enjoy life or have fun",
+                    example: "Life is short, we need to jaiye while we can."
+                    },  
+ "tingasa": {  definition: "A loud and noisy gathering or party",
+                    example: "That party too tingasa"
+                    },    
+  "e don red": {  definition: "An expression used to show that a situation has reached a critical point or is out of control",
+                    example: "My guyy, e don red ohh!"
+                    },    
+  "Money miss road": {  definition: "An expression describes someone who is reckless with money",
+                    example: "That guy na money miss road abeg"
+                    },
+"Na only you waka come?": {  definition: "An expression used to show surprise or disbelief when someone is the only person present in a group, event, happenings or gathering",
+                    example: "Na only you waka come?, you dey para oh."
+                    },   
+"dey dia dey look": {  definition: " An expression used to show that someone is watching or observing a situation but not getting involved",
+                    example: "him just dey dia dey look like zombie"
+                    },   
+ "baba ijebu": {  definition: "A popular lottery game in Nigeria",
+                    example: "I won some money playing baba ijebu."
+                    },   
+                    
+ "chop knuckle": {  definition: "A fist bump",
+                    example: "My guyy, chop knuckle!"
+                    },                      
         "sisi": {
         definition: "Lady or girl",
         example: "That sisi fine sha, I go like meet am."
@@ -128,7 +247,11 @@ const dictionary = {
             definition: "I will tell you",
             example: "E get something wey I wan yan you, make we talk."
             },
-            
+            "jollof rice ": {
+                definition: "A popular Nigerian rice dish made with tomato sauce, onions, and peppers, often served with fried plantains or chicken",
+                example: "jollof rice and chicken go make sense this night."
+                },
+                
             "ojuelegba": {
             definition: "Refers to a busy area in Lagos",
             example: "Make we go Ojuelegba, wey dem dey sell better suya."
