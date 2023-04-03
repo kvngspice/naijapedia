@@ -1339,6 +1339,7 @@ const dictionary = {
                                                 
                                                     if (entry) {
                                                         resultDiv.innerHTML = `<p style="font-size: 24px;"><strong>${searchedWord}</strong> </p><br> <i>${entry.definition}</i><br><br><strong>Use in a sentence:</strong> ${entry.example}`;
+                                                        showPopup(`"${searchedWord}" found!`, true);
                                                     } else {
                                                         const relatedWords = findRelatedWords(searchedWord);
                                                         if (relatedWords.length > 0) {
@@ -1350,8 +1351,10 @@ const dictionary = {
                                                                 relatedWordElement.addEventListener('click', () => searchWord(relatedWord));
                                                                 resultDiv.appendChild(relatedWordElement);
                                                             });
+                                                            showPopup(`"${searchedWord}" not found in the dictionary. but see related words`, false);
                                                         } else {
                                                             resultDiv.innerHTML = `<strong>${searchedWord}:</strong> not found in the dictionary.`;
+                                                            showPopup(`"${searchedWord}" not found in the dictionary.`, false);
                                                         }
                                                     }
                                                 }
@@ -1494,6 +1497,31 @@ async function downloadAndShare() {
     } else {
         alert('Sharing is not supported on this browser.');
     }
+}
+
+function showPopup(message, isSuccess = true) {
+    const popup = document.createElement('div');
+    popup.textContent = message;
+    popup.classList.add('popup');
+    popup.style.position = 'fixed';
+    popup.style.top = '60px';
+    popup.style.left = '50%';
+    popup.style.transform = 'translateX(-50%)';
+    popup.style.backgroundColor = isSuccess ? '#28a745' : '#dc3545';
+    popup.style.color = '#ffffff';
+    popup.style.padding = '10px';
+    popup.style.borderRadius = '4px';
+    popup.style.zIndex = '1000';
+    popup.style.fontSize = '14px';
+    popup.style.textAlign = 'center';
+    popup.style.animation = 'fadeout 4s forwards';
+    popup.style.animationDelay = '2s';
+
+    document.body.appendChild(popup);
+
+    setTimeout(() => {
+        document.body.removeChild(popup);
+    }, 6000);
 }
 
 
