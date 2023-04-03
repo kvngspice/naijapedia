@@ -224,7 +224,11 @@ const dictionary = {
  "baba ijebu": {  definition: "A popular lottery game in Nigeria",
                     example: "I won some money playing baba ijebu."
                     },   
-                    
+ "give": {  definition: "An expression to determine how impressive something is",
+                    example: "Chiamaka say the outfits no dey to give."},
+ "ejit": {  definition: "short for Ejitogute, a name reserved for few people. usually beautiful women from portharcout, Nigeria.",
+                    example: "Ejit is too beautiful."                    
+                    },                             
  "chop knuckle": {  definition: "A fist bump",
                     example: "My guyy, chop knuckle!"
                     },                      
